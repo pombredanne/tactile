@@ -1,0 +1,13 @@
+
+This is tactile, a tactile feedback helper for the N900.
+
+Run as root or make
+  /sys/class/leds/twl4030:vibrator/brightness
+world-writable.
+
+Usage: ./tactile <pattern>
+
+<pattern> is e.g. "button" or "appmenu" (check the source)
+
+ -- Thomas Perl <thp.io/about>; 2011-02-17
+
