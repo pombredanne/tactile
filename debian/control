@@ -1,0 +1,14 @@
+Source: tactile
+Section: utils
+Priority: extra
+Maintainer: Thomas Perl <m@thp.io>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.7.2
+
+Package: tactile
+Architecture: armel
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Tactile feedback for the N900
+ tactile provides improved tactile feedback with different
+ patterns to improve the user experience on the N900.
+
