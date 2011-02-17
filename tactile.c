@@ -15,8 +15,13 @@ typedef struct {
 } Pattern;
 
 static Pattern patterns[] = {
-  {"button", 70, {90, 20}, 2},
+  {"button", 15, {200}, 1},
   {"appmenu", 40, {40, 70, 20, 50, 40, 20}, 6},
+  {"appmenu-out", 40, {30, 45, 30, 35, 30, 20}, 6},
+  {"dialog", 30, {0, 60, 0, 70, 0, 80}, 6},
+  {"dialog-out", 30, {0, 60, 0, 50, 0, 30}, 6},
+  {"scroll-stop", 10, {120}, 1},
+  {"slider-change", 20, {50, 40, 30, 20, 30, 40}, 6},
   {NULL},
 };
 

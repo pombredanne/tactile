@@ -1,3 +1,10 @@
+tactile (2) fremantle; urgency=low
+
+  * New patterns
+  * Added demo GUI (tactile-demo.py)
+
+ -- Thomas Perl <m@thp.io>  Thu, 17 Feb 2011 14:19:50 +0100
+
 tactile (1) fremantle; urgency=low
 
   * Initial Release.
